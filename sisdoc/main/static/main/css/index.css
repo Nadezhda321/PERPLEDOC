@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+.logo {
+  position: absolute;
+  width: 391px;
+  height: 61px;
+  left: 37px;
+  top: 49px;
+}
+
+.navig {
+	position: absolute;
+	width: 1285px;
+	height: 85px;
+	left: 37px;
+	top: 147px;
+}
+
+.str {
+	border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.lk {
+	text-decoration: none;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 37px;
+	color: #000000;
+}
+
+.gl {
+	text-decoration: none;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 37px;
+	color: #000000;
+}
+
+
+.bid {
+	float: left;
+	margin-left: 40px;
+}
+.vm {
+	display : inline-block;
+	list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+.grp {
+	text-decoration: none;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 37px;
+	color: #000000;
+}
+
+.sod {
+
+}
+
+.text {
+	position: absolute;
+	width: 520px;
+	height: 444px;
+	left: 75px;
+	margin-top: 330px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 43px;
+	color: #000000;
+}
+.pict {
+	position: absolute;
+	width: 538px;
+	height: 511px;
+	left: 772px;
+	top: 360px;
+}
+
+.img {
+	position: absolute;
+	width: 538px;
+	height: 511px;
+	left: 772px;
+	margin-top: 290px;
+}
+.szak {
+	text-decoration: none;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 25px;
+	color: #000000;
+	text-align: center;
+}
+
+.ozak {
+	text-decoration: none;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 25px;
+	color: #000000;
+	text-align: center;
+}

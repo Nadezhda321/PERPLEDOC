@@ -1,0 +1,27 @@
+{% load static %}
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{% block title%}{% endblock %}</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'main/css/index_1.css' %}">
+</head>
+<body>
+<header>
+	<img class='logo' src="{% static 'main/img/logo.svg' %}" alt="PurpleDoc">
+ </header>
+ <nav class='navig'>
+ 	<hr class="str">
+		<ul class="vm">
+			<li class="bid"><a href="" class="lk">Личный кабинет</a></li>
+			<li class="bid"><a href="" class="gl">Главная страница</a></li>
+			<li class="bid"><a href="" class="grp">Мои документы</a></li>
+			<li class="bid"><a href="" class="szak">Создать<br> заказ</a></li>
+			<li class="bid"><a href="" class="ozak">Отследить<br> заказ</a></li>
+		</ul>
+ 	<hr class="str">
+ </nav>
+{% block content %}
+{% endblock %}
+</body>
+</html>
